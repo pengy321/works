@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    text-align: center;
+    font-family: YouYuan;
+}
+.name{
+    margin: 0 auto ;
+    padding: 0;
+    text-align: center;
+    margin-top: 300px;
+    position: relative;
+}
+.name p:nth-child(1){
+    font-size: 60px;
+    color: #fff;
+    display: inline;
+}
+#nameBut{
+    width: 0px;
+    height: 20px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 16px;
+    display:inline-block;
+    border-bottom: 5px solid blue;
+    transition:all  2s  cubic-bezier(.45, 2, .23, 1.52) ;
+    overflow: hidden;
+    text-align: center;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius: 3px;
+   
+
+
+}
+#zpj{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #fff;
+    display: block;
+    background-color: blue;
+    border-radius: 50px;
+    line-height: 40px;
+    transition: all 2s;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+#mzYc{
+    color:black;
+    transition: all 2s;
+}

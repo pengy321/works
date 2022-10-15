@@ -1,0 +1,1164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{position: relative;background-color: black;}
+
+#box{
+    padding-bottom: 100px;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 5px solid #be1414;
+    position: relative;
+    
+}
+.svg-1{
+    position: relative;
+    left: -240px;
+    top: -50px;
+    
+}
+#fbt{
+    position: absolute;
+    top: 70px;
+    left:200px;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    background-color:#342684;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.qh{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.qh a:nth-child(1){
+    display: block;
+    width: 160px;
+    height: 20px;
+    float: left;
+    border:2px solid blue;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.qh a:nth-child(1):hover{
+    background-color: blue;
+    width: 200px;
+}
+.qh a:nth-child(2){
+    display: block;
+    width: 160px;
+    height: 20px;
+    float: right;
+    border:2px solid blue;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.qh a:nth-child(2):hover{
+    background-color: blue;
+    width: 200px;
+}
+
+/* 各个地区颜色更改 */
+#xinjiang{
+    fill: #fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#anhui{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#beijing{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#chongqing{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#fujian{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#gansu{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#guangdong{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#guangxi{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#hainan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#hebei{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#henan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#heilongjiang{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#hubei{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#hunan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#jilin{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#jiangsu{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#jiangxi{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#liaoning{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#neimenggu{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#ningxia{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#qinghai{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#shandong{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#shanxi1{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#shanxi3{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#sichuan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#taiwan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#tianjin{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#xizang{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+
+#yunnan{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#zhejiang{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#shanghai{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+#guizhou{
+    fill:#fff;
+    stroke:#a1a1a1;
+    stroke-opacity:1;
+    stroke-width:1px;
+    transition: all 2s;
+}
+
+.bt{
+    width: 300px;
+    height: 50px;
+    background-color: #be1414;
+    border-radius: 25px;
+    color: #fff;
+    position: relative;
+    top: -825px;
+    left:-20px;
+    text-align: center;
+    line-height: 60px;
+    font-size:20px;
+    position: relative;
+}
+.sj{
+    width: 100px;
+    height: 470px;
+    background-color: #786ead;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    border: 2px solid #be1414;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 4px 4px #be1414;
+}
+.sj-1{
+    width: 80px;
+    height: 20px;
+    background-color: #be1414;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+    text-align:center;
+    padding-right: 5px;
+    line-height: 20px;
+}
+.sj-2 ul{
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+.sj-2 ul li{
+    background-color: #1e0e77;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #be1414;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.sj-2 ul li:nth-child(1){
+    background-color: #1e0e77;
+}
+.sj-2 ul li:nth-child(2){
+    background-color: #342684;
+}
+.sj-2 ul li:nth-child(3){
+    background-color: #4b3e92;
+}
+.sj-2 ul li:nth-child(4){
+    background-color: #6156a0;
+}
+.sj-2 ul li:nth-child(5){
+    background-color: #786ead;
+}
+.sj-2 ul li:nth-child(6){
+    background-color: #8e86bb;
+}
+.sj-2 ul li:nth-child(7){
+    background-color: #a59fc9;
+}
+.sj-2 ul li:nth-child(8){
+    background-color: #bbb6d6;
+}
+.sj-2 ul li:nth-child(9){
+    background-color: #d2cfe4;
+}
+.sj-2 ul li:nth-child(10){
+    background-color: #dddbeb;
+}
+.sj-2 ul li:nth-child(11){
+    background-color: #ffffff;
+    border: 1px solid #1e0e77;
+}
+.zwsj{
+    position: absolute;
+    top: 413px;
+    left: 43px;
+    color: #be1414;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+/* 弹窗 */
+/* 全球各地区糖尿病数量 */
+#tc1{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/sl.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 5px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/*全球各地区就2021年新增糖尿病百分比 */
+#tc2{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/bfb.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 0px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/* 糖尿病的预防 */
+#tc3{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/yf.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 10px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/* 糖尿病早期症状 */
+#tc4{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/zz.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 10px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/* 我国糖尿病分布规律 */
+#tc5{
+    width: 00px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/gl.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 10px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/* 什么是糖尿病 */
+#tc6{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/tnb.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 10px 10px;
+    /* display: none; */
+    transition: all 1s;
+    overflow: hidden;
+}
+/* 中国糖尿病预估数量 */
+    
+#tc7{
+    width: 0px;
+    height: 300px;
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid #be1414;
+    opacity:0; 
+    position:absolute;
+    top: 160px;
+    left:0;
+    background-image: url(../img/zgsl.png);
+    background-size: 570px;
+    background-repeat:no-repeat;
+    background-position: 10px 10px;
+    /* display: none; */
+    transition: all 1s;
+
+    overflow: hidden;
+}
+.an{
+    width: 200px;
+    height: 500px;
+    position:absolute;
+    top: 50px;
+    left: 740px;    
+}
+#btn1{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    font-size: 18px;
+    opacity:1;
+    margin-bottom: 20px;
+    transition: all 1s;
+
+}
+#btn2{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#btn3{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#btn4{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#btn5{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#btn6{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+#btn7{
+    width: 250px;
+    height: 50px;
+    background-color:#be1414;
+    border: none;
+    border-radius:25px;
+    color: #fff;
+    opacity:1;
+    margin-bottom: 20px;
+    font-size: 18px;
+    transition: all 1s;
+}
+/* 小弹窗的样式 */
+p{
+    color: rgb(23, 0, 128);
+}
+
+
+.tcColor{
+    width: 80px;
+    height:auto;
+    background-color: #1e0e77;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#xinjiangTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 270px;
+    left: 340px;
+    overflow: hidden;
+    display: none;
+}
+#anhuiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#henanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#hebeiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#beijingTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#chongqingTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#fujianTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#gansuTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#guangdongTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#guangxiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#hainanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#heilongjiangTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#hubeiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#hunanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#jilinTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#jiangsuTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#jiangxiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#jiangxiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#liaoningTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#neimengguTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#ningxiaTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#qinghaiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#shandongTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#shanxi1Tc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#shanxi3Tc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#sichuanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#taiwanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#tianjinTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#xizangTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#xinjiangTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#yunnanTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#zhejiangTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#shanghaiTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+#guizhouTc{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(17, 0, 114);
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 360px;
+    left: 730px;
+    overflow: hidden;
+    display: none;
+}
+
+
+#tnbr{
+    width: 20px;
+    height: 100px;
+    background-color:#be1414;
+    position: absolute;
+    top:470px;
+    left: 0px;;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    transition: all 1s;
+}
+#tnbtime{
+    width: 0px;
+    height: 100px;
+    background-color:#be1414;
+    position: absolute;
+    top:470px;
+    left: 25px;;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 1s;
+}
+#sjly{
+    width: 400px;
+    height: 20px;
+    background-color:#be1414;
+    position: absolute;
+    top:585px;
+    left: 0px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    transition: all 1s;
+}
+#sjly a{
+    color: #fff;
+    text-decoration: none
+}
